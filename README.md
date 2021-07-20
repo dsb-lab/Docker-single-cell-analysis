@@ -4,7 +4,9 @@ Docker file for the analysis of Pijuan and Sala.
 
 # Use without docker
 
-In the file `requirements.txt` there is the defined basic packages used and its versions for the analysis. The analsys is performed using Python3.8.8
+In the file `requirements.txt` there is the defined basic packages used and its versions for the analysis. The analsys is performed using Python3.8.8.
+
+Inside home, you will find all the analysis scripts.
 
 # Construct Docker
 
