@@ -11,4 +11,5 @@ mnnpy==0.1.9.5
 harmonypy==0.0.5
 MulticoreTSNE==0.1
 scrublet==0.2.3
+pygam==0.8.0
 # sam-algorithm

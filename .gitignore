@@ -1,3 +1,7 @@
 home/.*
-home/data/*
+home/dataRaw/*
+!home/dataRaw/.gitkeep
+home/dataOut/*
+!home/dataOut/.gitkeep
 home/atlas_data.tar.gz
+home/__pycache__

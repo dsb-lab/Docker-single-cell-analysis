@@ -2,7 +2,7 @@ Docker file for the analysis of Pijuan and Sala.
 
 **Warning**: The analysis has not been completed yet. Some parts of the code ar nonsense so be careful to run it for now.
 
-**Warning**: The bash files are have been writen for linux. Maybe in Mac or PC, the lines are different. The scripts are pretty simple so they should be straighforward to adapt.
+**Warning**: The bash files are have been writen for Linux. Maybe in Mac or PC, the lines are different. The scripts are pretty simple so they should be straighforward to adapt.
 
 # Use without docker
 

@@ -9,18 +9,6 @@ RUN conda config --add channels bioconda &&\
 
 RUN conda install --file requirements.txt
 
-# RUN conda install scanpy==1.7.0 &&\
-#     conda install matplotlib==3.3.4 &&\
-#     conda install numpy==1.20.1 &&\
-#     conda install pandas==1.2.2 &&\
-#     conda install scipy==1.6.0 &&\
-#     conda install scikit-learn==0.24.1 &&\
-#     conda install scrublet==0.2.3 &&\
-#     conda install seaborn==0.11.1 &&\
-#     conda install MulticoreTSNE==0.1 &&\
-#     conda install scrublet==0.2.3
-
-
 
 
 
