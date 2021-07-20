@@ -1,0 +1,19 @@
+#!/bin/bash
+
+mkdir home
+
+PATHIN="$(pwd)/home"
+
+docker stop pijuan_torregrosa
+docker rm pijuan_torregrosa
+
+firefox localhost:10000
+
+docker run --rm \
+           -p 10000:8888 \
+           --name pijuan_torregrosa \
+           --mount type=bind,source=$PATHIN,destination=/home/jovyan \
+           -e JUPYTER_ENABLE_LAB=yes \
+           pijuan_torregrosa 
+           
+

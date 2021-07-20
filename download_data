@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir /home/dataIn
+
+# curl https://content.cruk.cam.ac.uk/jmlab/atlas_data.tar.gz > ./in/data/atlas_data.tar.gz
+
+tar -xf ./home/dataIn/atlas_data.tar.gz atlas/genes.tsv atlas/barcodes.tsv meta.tab raw_counts.mtx -C ./in/data
+rm ./home/dataIn/atlas_data.tar.gz
