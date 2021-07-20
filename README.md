@@ -8,7 +8,19 @@ In the file `requirements.txt` there is the defined basic packages used and its 
 
 Inside home, you will find all the analysis scripts.
 
-# Construct Docker
+The necessary data for the analysis can be obtained running
+
+```
+./download_data
+```
+
+For running the docker and go over the analysis steps in a jupyter lab session, just run,
+
+```
+./run
+```
+
+# Use with Docker
 
 A docker image with the required python version and packages can be created running
 
@@ -16,17 +28,13 @@ A docker image with the required python version and packages can be created runn
 ./build_git
 ```
 
-# Download data
-
 The necessary data for the analysis can be obtained running
 
 ```
 ./download_data
 ```
 
-# Run analysis
-
-For running the analysis just start a jupyter lab session with
+For running the docker and go over the analysis steps in a jupyter lab session, just run,
 
 ```
 ./run
