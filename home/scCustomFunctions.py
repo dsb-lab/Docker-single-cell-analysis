@@ -11,6 +11,33 @@ import pandas as pd
 import networkx as nx
 from pygam import LinearGAM, s, f
 
+def loadData(name="./dataOut/Raw.h5ad",QC_basic=False,Normalized=False,Log1=False,QC_Doublets_Stripped=False,Log=False,sample="All",stage="All"):
+    
+    a = scp.read(name)
+    
+    if QC_basic:
+        a = a[np.invert(a.obs.loc[:,"QC_basic_trimmed"]),np.invert(a.var.loc[:,"QC_basic_trimmed"])]
+        
+    if Normalized:
+        scp.pp.normalize_total(a,target_sum=a.obs["nCounts"].mean())
+        
+    if Log1:
+        scp.pp.log1p(a)
+        
+    if stage != "All":
+        s = np.array([False for i in range(a.shape[0])])
+        for i in stage:
+            s += (a.obs["stage"]==i).values
+        a = a[s,:]
+        
+    if sample != "All":
+        s = np.array([False for i in range(a.shape[0])])
+        for i in sample:
+            s += (a.obs["sample"]==i).values
+        a = a[s,:]            
+
+    return a
+
 def generateSamples(Ncells=250,Ngenes=10000,DEgenes=1000,psList=[0.2,0.5,0.8]):
 
     DElist = np.array(range(Ngenes))
