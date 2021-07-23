@@ -6,10 +6,15 @@ home/dataOut/*
 home/atlas_data.tar.gz
 home/__pycache__
 
+home/dataOut/3_QC_Doublets_Stripped/*
+!home/dataOut/3_QC_Doublets_Stripped/*.gitkeep
+
 home/Plots/1_QC/*
 !home/Plots/1_QC/*.gitkeep
 home/Plots/2_Normalisation/*
 !home/Plots/2_Normalisation/*.gitkeep
+home/Plots/3_QC_Doublets_Stripped/*
+!home/Plots/3_QC_Doublets_Stripped/*.gitkeep
 
 home/Tables/1_QC/*
 !home/Tables/1_QC/*.gitkeep
