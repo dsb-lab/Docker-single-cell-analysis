@@ -14,4 +14,3 @@ scrublet==0.2.3
 pygam==0.8.0
 python-igraph==0.9.6
 louvain==0.7.0
-# sam-algorithm
