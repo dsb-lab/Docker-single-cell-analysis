@@ -8,7 +8,3 @@ RUN conda config --add channels bioconda &&\
     conda config --add channels powerai
 
 RUN conda install --file requirements.txt
-
-
-
-
