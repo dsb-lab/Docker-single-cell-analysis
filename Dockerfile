@@ -12,9 +12,11 @@ USER jovyan
 RUN conda config --add channels bioconda &&\
     conda config --add channels defaults &&\
     conda config --add channels conda-forge &&\
-    conda config --add channels powerai
+    conda config --add channels powerai &&\
+    conda config --add channels auto
 
 RUN conda install --file requirements.txt
 
-# Install mnnpy apart because it is giving problems
+# Install apart because it is giving problems or do not exist in conda
 RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
+RUN pip install pydpc==0.1.3
