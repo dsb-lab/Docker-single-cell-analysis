@@ -20,3 +20,4 @@ RUN conda install --file requirements.txt
 # Install apart because it is giving problems or do not exist in conda
 RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
 RUN pip install pydpc==0.1.3
+RUN pip install sam-algorithm==0.8.7
