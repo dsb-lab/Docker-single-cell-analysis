@@ -14,5 +14,17 @@ pygam==0.8.0
 python-igraph==0.9.6
 louvain==0.7.0
 xlsxwriter==1.4.4
+leidenalg==0.8.7
+bbknn==1.5.1
+scanorama==1.7.1
+phate==1.0.7
+pypairs==3.2.3
+# phenograph==1.1.14 #Installed apart
 # mnnpy==0.1.9.5 #Installed apart
 # pydpc==0.1.3 #Installed apart
+# sam_algorithm==0.8.7 #Installed apart
+# DCA==0.3.4 #Installed apart
+# magic-impute==3.0.0 #Installed apart
+# palantir==1.0.0 #Installed apart
+# trimap==1.0.15 #Installed apart
+# wishbone-dev==0.5.2 #Not installed

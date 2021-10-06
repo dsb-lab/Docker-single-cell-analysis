@@ -13,7 +13,8 @@ RUN conda config --add channels bioconda &&\
     conda config --add channels defaults &&\
     conda config --add channels conda-forge &&\
     conda config --add channels powerai &&\
-    conda config --add channels auto
+    conda config --add channels auto &&\
+    conda config --add channels letaylor
 
 RUN conda install --file requirements.txt
 
@@ -21,3 +22,8 @@ RUN conda install --file requirements.txt
 RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
 RUN pip install pydpc==0.1.3
 RUN pip install sam-algorithm==0.8.7
+RUN pip install DCA==0.3.4
+RUN pip install magic-impute==3.0.0
+RUN pip install palantir==1.0.0
+RUN pip install trimap==1.0.15
+RUN pip install phenograph==1.5.3
