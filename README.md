@@ -1,5 +1,7 @@
 Docker file for single cell analysis.
 
+## version 0.1
+
 The packages explicitly installed in this image are:
 
 > scanpy==1.7.0\
@@ -28,6 +30,39 @@ The packages explicitly installed in this image are:
 > pydpc==0.1.3\
 > sam_algorithm==0.8.7\
 > DCA==0.3.4\
+> magic-impute==3.0.0\
+> palantir==1.0.0\
+> trimap==1.0.15
+
+## version 0.2
+
+The packages explicitly installed in this image are:
+
+> scanpy==1.7.0\
+> matplotlib==3.3.4\
+> numpy==1.20.1\
+> scipy==1.6.0\
+> pandas==1.2.2\
+> networkx==2.5\
+> seaborn==0.11.1\
+> scikit-learn==0.24.1\
+> fa2==0.3.5 \
+> harmonypy==0.0.5\
+> MulticoreTSNE==0.1\
+> scrublet==0.2.3\
+> pygam==0.8.0\
+> python-igraph==0.9.6\
+> louvain==0.7.0\
+> xlsxwriter==1.4.4\
+> leidenalg==0.8.7\
+> bbknn==1.5.1\
+> scanorama==1.7.1\
+> phate==1.0.7\
+> pypairs==3.2.3\
+> phenograph==1.1.14\
+> mnnpy==0.1.9.5\
+> pydpc==0.1.3\
+> DCA==0.3.3\
 > magic-impute==3.0.0\
 > palantir==1.0.0\
 > trimap==1.0.15

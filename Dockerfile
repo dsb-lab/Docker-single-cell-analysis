@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:python-3.8.8
+FROM jupyter/base-notebook:python-3.9.7
 
 COPY requirements.txt .
 
@@ -19,13 +19,14 @@ RUN conda config --add channels bioconda &&\
 RUN conda install --file requirements.txt
 
 # Install apart because it is giving problems or do not exist in conda
-RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
 RUN pip install pydpc==0.1.3
-RUN pip install sam-algorithm==0.8.7
-RUN pip install DCA==0.3.4
+RUN pip install DCA==0.3.3
 RUN pip install magic-impute==3.0.0
 RUN pip install palantir==1.0.0
 RUN pip install trimap==1.0.15
 RUN pip install phenograph==1.5.3
 RUN pip install git+https://github.com/mossjacob/pcurvepy
 RUN pip install pyslingshot
+RUN pip install git+https://github.com/metgem/forceatlas2
+RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
+# RUN pip install git+https://github.com/atarashansky/self-assembling-manifold
