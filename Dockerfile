@@ -27,3 +27,5 @@ RUN pip install magic-impute==3.0.0
 RUN pip install palantir==1.0.0
 RUN pip install trimap==1.0.15
 RUN pip install phenograph==1.5.3
+RUN pip install git+https://github.com/mossjacob/pcurvepy
+RUN pip install pyslingshot
