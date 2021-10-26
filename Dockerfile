@@ -20,7 +20,7 @@ RUN conda install --file requirements.txt
 
 # Install apart because it is giving problems or do not exist in conda
 RUN pip install pydpc==0.1.3
-RUN pip install DCA==0.3.3
+# RUN pip install DCA==0.3.3
 RUN pip install magic-impute==3.0.0
 RUN pip install palantir==1.0.0
 RUN pip install trimap==1.0.15
