@@ -19,6 +19,9 @@ RUN conda config --add channels bioconda &&\
 RUN conda install --file requirements.txt
 
 # Install apart because it is giving problems or do not exist in conda
+RUN pip install bbknn==1.5.1
+RUN pip install MulticoreTSNE==0.1
+RUN pip install louvain
 RUN pip install pydpc==0.1.3
 # RUN pip install DCA==0.3.3
 RUN pip install magic-impute==3.0.0
