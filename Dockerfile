@@ -20,16 +20,16 @@ RUN conda install --file requirements.txt
 
 # Install apart because it is giving problems or do not exist in conda
 RUN pip install bbknn==1.5.1
-RUN pip install MulticoreTSNE==0.1
-RUN pip install louvain
 RUN pip install pydpc==0.1.3
 # RUN pip install DCA==0.3.3
 RUN pip install magic-impute==3.0.0
 RUN pip install palantir==1.0.0
 RUN pip install trimap==1.0.15
 RUN pip install phenograph==1.5.3
-RUN pip install git+https://github.com/mossjacob/pcurvepy
+RUN pip install git+https://github.com/gatocor/pcurvepy
 RUN pip install pyslingshot
 RUN pip install git+https://github.com/metgem/forceatlas2
 RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
-# RUN pip install git+https://github.com/atarashansky/self-assembling-manifold
+#RUN pip install --no-binary :fa2: fa2==0.3.5
+#RUN pip install sam-algorithm 
+#git+https://github.com/atarashansky/self-assembling-manifold
