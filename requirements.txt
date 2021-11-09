@@ -11,6 +11,7 @@ scrublet==0.2.3
 pygam==0.8.0
 python-igraph==0.9.6
 xlsxwriter==1.4.4
+openpyxl==3.0.9
 leidenalg==0.8.7
 scanorama==1.7.1
 phate==1.0.7
