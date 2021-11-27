@@ -1,6 +1,6 @@
 Docker file for single cell analysis.
 
-## version 0.1
+## version 0.2
 
 The packages explicitly installed in this image are:
 
