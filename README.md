@@ -34,7 +34,7 @@ The packages explicitly installed in this image are:
 > palantir==1.0.0\
 > trimap==1.0.15
 
-## version 0.2
+## [version 0.2](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/4d6469fa02e12cd9f198f97f0e2087eb4c99bf4c)
 
 This version incorporates over version 0.2:
 
@@ -49,8 +49,8 @@ and the git packages for the pyslingshot algorithm.
 
 This version incorporates over version 0.2:
 
-> gprofiler-official==1.0.0
-> scikit-misc==0.1.4
+> gprofiler-official==1.0.0\
+> scikit-misc==0.1.4\
 > scvi-tools==0.14.6
 
 For being able to execute the docker with GPUs functionality see [this article](https://towardsdatascience.com/how-to-properly-use-the-gpu-within-a-docker-container-4c699c78c6d1)(Need Different base image in Dockerfile).
