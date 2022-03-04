@@ -36,7 +36,7 @@ The packages explicitly installed in this image are:
 
 ## version 0.2
 
-This version incorporates over the first version:
+This version incorporates over version 0.2:
 
 > openpyxl==3.0.9
 
@@ -44,6 +44,16 @@ and the git packages for the pyslingshot algorithm.
 
 > [mossjacob/pcurvepy](https://github.com/mossjacob/pcurvepy)\
 > [mossjacob/pslingshot](https://github.com/mossjacob/pyslingshot)
+
+## version 0.3
+
+This version incorporates over version 0.2:
+
+> gprofiler-official==1.0.0
+> scikit-misc==0.1.4
+> scvi-tools==0.14.6
+
+For being able to execute the docker with GPUs functionality see [this article](https://towardsdatascience.com/how-to-properly-use-the-gpu-within-a-docker-container-4c699c78c6d1)(Need Different base image in Dockerfile).
 
 ## 1. Building the docker
 A docker image with the required python version and packages can be created running
