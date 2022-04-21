@@ -55,6 +55,12 @@ This version incorporates over version 0.2:
 
 For being able to execute the docker with GPUs functionality see [this article](https://towardsdatascience.com/how-to-properly-use-the-gpu-within-a-docker-container-4c699c78c6d1)(Need Different base image in Dockerfile).
 
+## version 0.4
+
+This version incorporates over version 0.3:
+
+> mnnpy==0.1.9.5
+
 ## 1. Building the docker
 A docker image with the required python version and packages can be created running
 
