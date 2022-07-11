@@ -45,7 +45,7 @@ and the git packages for the pyslingshot algorithm.
 > [mossjacob/pcurvepy](https://github.com/mossjacob/pcurvepy)\
 > [mossjacob/pslingshot](https://github.com/mossjacob/pyslingshot)
 
-## version 0.3
+## [version 0.3](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/v0.3)
 
 This version incorporates over version 0.2:
 
@@ -55,15 +55,11 @@ This version incorporates over version 0.2:
 
 For being able to execute the docker with GPUs functionality see [this article](https://towardsdatascience.com/how-to-properly-use-the-gpu-within-a-docker-container-4c699c78c6d1)(Need Different base image in Dockerfile).
 
-## version 0.4
-
-This version incorporates over version 0.3:
+## [version 0.4](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/v0.4)
 
 > mnnpy==0.1.9.5
 
-## version 0.5
-
-This version incorporates over version 0.3:
+## [version 0.5](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/v0.5)
 
 > scikit-misc=0.1.4\
 > cdlib=0.2.6
