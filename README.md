@@ -61,6 +61,13 @@ This version incorporates over version 0.3:
 
 > mnnpy==0.1.9.5
 
+## version 0.5
+
+This version incorporates over version 0.3:
+
+> scikit-misc=0.1.4
+> cdlib=0.2.6
+
 ## 1. Building the docker
 A docker image with the required python version and packages can be created running
 

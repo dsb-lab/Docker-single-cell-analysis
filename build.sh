@@ -1,6 +1,6 @@
 #!/bin/bash
 
-var=0.4
+var=0.5
 
 docker build . --no-cache -t dsblab/single_cell_analysis:$var
 docker push dsblab/single_cell_analysis:$var

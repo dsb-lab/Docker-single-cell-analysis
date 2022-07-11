@@ -1,3 +1,4 @@
-FROM dsblab/single_cell_analysis:0.3
+FROM dsblab/single_cell_analysis:0.4
 
-RUN pip install mnnpy==0.1.9.5
+RUN pip install cdlib
+RUN pip install scikit-misc
