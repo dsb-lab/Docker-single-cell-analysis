@@ -65,7 +65,7 @@ This version incorporates over version 0.3:
 
 This version incorporates over version 0.3:
 
-> scikit-misc=0.1.4
+> scikit-misc=0.1.4\
 > cdlib=0.2.6
 
 ## 1. Building the docker
