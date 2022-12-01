@@ -57,12 +57,23 @@ For being able to execute the docker with GPUs functionality see [this article](
 
 ## [version 0.4](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/v0.4)
 
+Added
+
 > mnnpy==0.1.9.5
 
 ## [version 0.5](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/v0.5)
 
+Added
+
 > scikit-misc=0.1.4\
 > cdlib=0.2.6
+
+## [version 0.6](https://github.com/dsb-lab/Docker-single-cell-analysis/tree/v0.6)
+
+Added
+
+> pympl
+> pyscenic
 
 ## 1. Building the docker
 A docker image with the required python version and packages can be created running

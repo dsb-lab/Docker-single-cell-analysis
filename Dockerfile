@@ -1,4 +1,4 @@
-FROM dsblab/single_cell_analysis:0.4
+FROM dsblab/single_cell_analysis:0.5
 
-RUN pip install cdlib
-RUN pip install scikit-misc
+RUN pip install ipympl
+RUN pip install pyscenic
