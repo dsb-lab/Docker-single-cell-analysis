@@ -72,7 +72,7 @@ Added
 
 Added
 
-> pympl
+> pympl\
 > pyscenic
 
 ## 1. Building the docker
