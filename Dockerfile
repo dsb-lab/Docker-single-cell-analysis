@@ -21,8 +21,10 @@ RUN R -e "remotes::install_github('satijalab/seurat', 'seurat5', quiet = TRUE)"
 USER jovyan
 
 RUN pip install rpy2 anndata2ri
+RUN conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+RUN conda install jax jaxlib -c conda-forge
 COPY requirements.txt .
-RUN pip install --file requirements.txt
+RUN pip install -r requirements.txt
 # RUN pip install --no-binary :mnnpy: mnnpy==0.1.9.5
 # RUN pip install pydpc==0.1.3
 # RUN pip install sam-algorithm==0.8.7
